@@ -1,0 +1,43 @@
+# Secrets and credentials
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Local model data / large artifacts
+*.gguf
+*.safetensors
+models/
+artifacts/raw/
+telemetry/raw/
+
+# VM / disk images
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.qcow2
+*.ova
+*.ovf
+*.iso
+
+# Logs / captures
+*.log
+*.pcap
+*.pcapng
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
